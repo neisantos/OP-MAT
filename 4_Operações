@@ -3,15 +3,13 @@ class TudoSobreFuncoes {
     static void ExibirMensagem(String texto)
     {
         Console.WriteLine(texto);
-    }
-
+            }
     static Double LerDados(String texto)
     {
         Console.Write(texto);
         Double num = Convert.ToDouble(Console.ReadLine());
         return num;
     }
-
     static Double Somar(Double num1, Double num2)
     {
         Double total = 0;
@@ -19,7 +17,6 @@ class TudoSobreFuncoes {
         return total;
         //return num1 + num2;
     }
-    
     static Double Subtrair(Double num1, Double num2)
     {
         Double total = 0;
@@ -27,7 +24,6 @@ class TudoSobreFuncoes {
         return total;
         //return num1 + num2;
     }
-    
     static Double Multiplicar(Double num1, Double num2)
     {
         Double total = 0;
@@ -35,7 +31,6 @@ class TudoSobreFuncoes {
         return total;
         //return num1 + num2;
     }
-
     static Double Dividir(Double num1, Double num2)
     {
         Double total = 0;
@@ -48,7 +43,6 @@ class TudoSobreFuncoes {
         }
         return total;
     }
-    
     static void Main()
     {
         Double n1 = 0;
@@ -85,7 +79,6 @@ class TudoSobreFuncoes {
             total = Dividir(n1,n2);
             Console.WriteLine(n1 + " / " + n2 + " = " + total);
         }
-        
         Console.ReadKey();
     }
 }
